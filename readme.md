@@ -1,6 +1,6 @@
 # NSQPHP
 
-PHP client for [NSQ](https://github.com/bitly/nsq).
+PHP client for [NSQ](https://github.com/bitly/nsq). Support NSQ 1.0.0 and 0.3.8
 
 ### NSQ basics
 
