@@ -2,6 +2,12 @@
 
 PHP client for [NSQ](https://github.com/bitly/nsq). Support NSQ 1.0.0 and 0.3.8
 
+### Composer安装
+
+composer config repo.apihub git https://github.com/yajsite/nsqphp.git
+composer config secure-http false
+composer require davegardnerisme/nsqphp
+
 ### NSQ basics
 
 You can read all about NSQ via the [readme on Github](https://github.com/bitly/nsq),
@@ -39,14 +45,14 @@ following to your composer.json.
         ...
         "require": {
             ...
-            "yajsite/nsqphp": "dev-master"
+            "davegardnerisme/nsqphp": "dev-master"
         }
         ...
     }
 
 You can also simply clone it into your project:
 
-    git clone git://github.com/yajsite/nsqphp.git
+    git clone git://github.com/davegardnerisme/nsqphp.git
     cd nsqphp
     git submodule update --init --recursive
 
