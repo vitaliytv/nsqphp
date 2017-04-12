@@ -365,7 +365,6 @@ class nsqphp
         if ($this->logger) {
             $this->logger->debug("Found the following hosts for topic \"$topic\": " . implode(',', $hosts));
         }
-
         foreach ($hosts as $host) {
             $parts = explode(':', $host);
             $conn = new Connection\Connection(
