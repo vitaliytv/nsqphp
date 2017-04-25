@@ -5,9 +5,8 @@ PHP client for [NSQ](https://github.com/bitly/nsq). Support NSQ 1.0.0 and 0.3.8
 ### Composer Install
 
 ```
+composer config repo.nsq git git@github.com:yajsite/nsqphp.git
 composer config minimum-stability dev
-composer config repo.nsq git https://github.com/yajsite/nsqphp.git
-composer config secure-http false
 composer require yajsite/nsqphp
 ```
 
